@@ -33,7 +33,7 @@ Additionally you will need to specify `AWS_SDK_LOAD_CONFIG=1` ([see AWS docs](ht
 ### TypeScript
 
 ```shell
-> px ts-node ./scripts/seeds/users.ts \
+> npx ts-node ./scripts/seeds/users.ts \
   --database my_database \
   --resource-arn arn:aws:rds:us-east-2:123456789012:cluster:my-aurora-cluster-1 \
   --secret-arn arn:aws:secretsmanager:us-west-2:123456789012:secret:my-path/my-secret-name-1a2b3c
