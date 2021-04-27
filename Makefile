@@ -86,7 +86,7 @@ build.compile:
 
 build.compile.validate:
 	test -f build/workspace/seed.js
-	test -f build/workspace/seed.d.js
+	test -f build/workspace/seed.d.ts
 
 # ---
 # --- Change Log
