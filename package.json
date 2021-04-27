@@ -1,0 +1,38 @@
+{
+  "name": "aws-rds-data-api-seeder",
+  "version": "0.1.0",
+  "description": "A package to bulk insert records into AWS RDS via the data-api.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarcastic-coder/aws-rds-data-api-seeder.git"
+  },
+  "bin": {
+    "seed": "./bin/seed.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "@types/jest": "^26.0.22",
+    "@types/node": "^15.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "aws-sdk": "^2.888.0",
+    "eslint": "^7.24.0",
+    "eslint-plugin-jest": "^24.3.5",
+    "husky": "^6.0.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.5",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "aws-rds-data-marshaller": "^0.1.1",
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "csv-parser": "^3.0.0"
+  }
+}
