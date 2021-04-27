@@ -10,9 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/sarcastic-coder/aws-rds-data-api-seeder.git"
   },
-  "bin": {
-    "seed": "./bin/seed.js"
-  },
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
