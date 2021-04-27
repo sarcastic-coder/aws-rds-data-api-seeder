@@ -2,7 +2,7 @@ import { Parameter } from 'aws-rds-data-marshaller/marshall';
 import { seeder, source } from '../src/seed';
 
 seeder()
-  .then(async (load) => {
+  .then(async(load) => {
     const data = await source(`${__dirname}/example.csv`);
     const columns = {
       id: Parameter.UUID(),
